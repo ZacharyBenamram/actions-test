@@ -1,0 +1,10 @@
+name: loadtest
+on:
+  workflow_dispatch:
+
+jobs:
+ job01:
+    runs-on: [ubuntu-latest]
+    steps:
+    - name: test
+      run: sleep 10000
